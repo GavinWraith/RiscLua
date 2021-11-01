@@ -62,10 +62,10 @@ Table of technical terms and meaning in this context:
 ```
 **Please note:** 
 
-Forks are more expensive than branches as they create a full copy of a project and when merged back to the codebase git has to run a full diff of everything while a Branch git runs a diff only of the portion we have worked/modified. Forks also take up more space generally.
+Forks are more expensive than branches as they create a full copy of a project and, when merged back to the codebase, git has to run a full diff of everything, while a Branch git runs a diff only of the portion we have worked/modified. Forks also take up more space generally.
 
 ## Pre-requisites (before you start)
-Please make sure you have a github account before you start. Also we recommend to add your RSA Public key to your github account. If you do not know how to do that please follow the instructions here:
+Please make sure you have a github account before you start. Also we recommend you add your RSA Public key to your github account. If you do not know how to do that please follow the instructions here:
 
 - [Create a github account](https://github.com/join)
 - [Add an RSA key to your github account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
@@ -75,13 +75,13 @@ Please make sure you have a github account before you start. Also we recommend t
 ## Contributing to this project/repository
 To contribute is fairly easy:
 
-Until a proper RISC OS git tool is being released, we encourage you to use for your "local git" either a Windows computer or a Linux computer or Virtual Machine.
+Until a proper RISC OS git tool is released, we encourage you to use for your "local git"; either a Windows computer or a Linux computer or Virtual Machine.
 
 There are some very useful tips [here at the ROOL Forum](https://www.riscosopen.org/content/documents/git-cheatsheet)
 
 ## Contributing General Guidelines
-In general you'd want to:
-* If you want to use Branching:
+In general you'd want to if:
+* you want to use Branching:
   - Clone a repo from here to your local git using: `git clone repo-url`
   - Get into the repo using: `cd repo-name`
   - Create your branch using: `git branch -b branch-name`
@@ -108,15 +108,15 @@ In general you'd want to:
 
 # Coding Style for C Developers
 
-One of the best an dmost complete C Coding style guide is the Linux Kernel C Coding Style Guide. So, for all general C related coding you should follow such set of rules (learning it can also help you a lot in your Software Engineering career), here is the Linux Coding Style guide for you: [Linux Coding Style Guide](https://www.kernel.org/doc/html/v5.10/process/coding-style.html).
+One of the best and most complete C Coding style guides is the Linux Kernel C Coding Style Guide. So, for all general C related coding you should follow such a set of rules (learning it can also help you a lot in your Software Engineering career). Here is the Linux Coding Style guide for you: [Linux Coding Style Guide](https://www.kernel.org/doc/html/v5.10/process/coding-style.html).
 
-Given that RISC OS is not linux and has its own ToolBox you shall consider all colliding rules to be superseeded by the corresponding rule in the RISC OS Style Guide, here is a link to how to obtain it: [RISC OS Style Guide](https://www.riscosopen.org/wiki/documentation/show/Style%20Guide)
+Given that RISC OS is not linux and has its own ToolBox, you should consider all colliding rules to be superseded by the corresponding rule in the RISC OS Style Guide. Here is a link to obtain it: [RISC OS Style Guide](https://www.riscosopen.org/wiki/documentation/show/Style%20Guide)
 
 Also please have a look at the Programming Conventions hosted on RISCOS.info, [click here to read them](http://www.riscos.info/index.php/Programming_Conventions)
 
-ROOL DDE Compiler support C89 and C99 (and they started to add support for C11), so, if you need, [here](http://www.sourceformat.com/pdf/c-standard-international.pdf) you can find a good C99 standard guide (precisely the Committee Draft — May 6, 2005 ISO/IEC 9899:TC2) you can use as reference while coding.
+The ROOL DDE Compiler supports C89 and C99 (and they have started to add support for C11), so, if you need it, [here](http://www.sourceformat.com/pdf/c-standard-international.pdf) you can find a good C99 standard guide (precisely the Committee Draft — May 6, 2005 ISO/IEC 9899:TC2) which you can use as reference while coding.
 
-If instead you prefer to use GCC, RISC OS has ative support for GCC 4 and the GCCSDK Project (building C code for RISC OS using GCC on Linux) support GCC 4, GCC 8 and they started to add GCC 10. You can fin dmor einfo on about this on [RISCOS.info](https://www.riscos.info/index.php/Cross-compiling_software_with_GCCSDK)
+If instead you prefer to use GCC, RISC OS has native support for GCC 4 and the GCCSDK Project (building C code for RISC OS using GCC on Linux) support GCC 4, GCC 8 and they have started to add GCC 10. You can find more info about this on [RISCOS.info](https://www.riscos.info/index.php/Cross-compiling_software_with_GCCSDK)
 
 # Extra info for BBC BASIC developers
 
@@ -129,7 +129,7 @@ Also ROOL has a free BBC BASIC Reference Manual PDF updated and available [here]
 # Extra info for everyone
 
 If you fear having to learn git or if you just want to help us with reviewing documentation etc. you can also use GitHub via the GitHub application, available for both the Apple iPad and iPhone and Android Tablets and Phones.
-The Android/Apple GitHub application makes it very easy to interact with us and provide your contribution without the need to learn git!
+The Android/Apple GitHub application makes it very easy to interact with us and provide your contribution without needing to learn git!
 Have a look in your device' on-line store for the GitHub application published by GitHub.
 
 So no excuses! ;-)
